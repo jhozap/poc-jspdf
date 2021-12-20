@@ -18,8 +18,8 @@ export class AppComponent {
     // se añade la configuracion de cifrado del documento
     const doc = new jsPDF({
       encryption: {
-        userPassword: "user",
-        ownerPassword: "owner",
+        userPassword: "Aswsoftware",
+        ownerPassword: "ASW123",
         userPermissions: ["print", "modify", "copy", "annot-forms"]
       }
     });
